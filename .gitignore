@@ -1,6 +1,14 @@
 *.class
+resource
+var/results
+var/evals-hard-bm25
+out
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# IntelliJ IDEA #
+.idea
+Panda-information-retrieval-package.iml
