@@ -1,7 +1,7 @@
 401  -   foreign minor germani 
 
 401 Stats:
-  Search Seconds:         0.865
+  Search Seconds:         0.817
   DocName Seconds:        0.028
   Num Points:         1,000.000
   Num Good Points:       42.000
@@ -84,8 +84,8 @@
 402  -   behavior genet 
 
 402 Stats:
-  Search Seconds:         0.022
-  DocName Seconds:        0.025
+  Search Seconds:         0.026
+  DocName Seconds:        0.021
   Num Points:         1,000.000
   Num Good Points:       48.000
   Max Good Points:       80.000
@@ -229,7 +229,7 @@
 404  -   ireland peac talk 
 
 404 Stats:
-  Search Seconds:         0.296
+  Search Seconds:         0.262
   DocName Seconds:        0.017
   Num Points:         1,000.000
   Num Good Points:       29.000
@@ -312,7 +312,7 @@
 405  -   cosmic event 
 
 405 Stats:
-  Search Seconds:         0.109
+  Search Seconds:         0.089
   DocName Seconds:        0.015
   Num Points:         1,000.000
   Num Good Points:        7.000
@@ -396,7 +396,7 @@
 
 406 Stats:
   Search Seconds:         0.035
-  DocName Seconds:        0.018
+  DocName Seconds:        0.016
   Num Points:         1,000.000
   Num Good Points:        9.000
   Max Good Points:       13.000
@@ -478,8 +478,8 @@
 407  -   poach wildlif preserv 
 
 407 Stats:
-  Search Seconds:         0.058
-  DocName Seconds:        0.007
+  Search Seconds:         0.054
+  DocName Seconds:        0.008
   Num Points:         1,000.000
   Num Good Points:       18.000
   Max Good Points:       68.000
@@ -561,7 +561,7 @@
 408  -   tropic storm 
 
 408 Stats:
-  Search Seconds:         0.018
+  Search Seconds:         0.013
   DocName Seconds:        0.007
   Num Points:         1,000.000
   Num Good Points:       56.000
@@ -644,7 +644,7 @@
 409  -   legal pan am 
 
 409 Stats:
-  Search Seconds:         0.250
+  Search Seconds:         0.255
   DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:        7.000
@@ -727,8 +727,8 @@
 410  -   schengen agreement 
 
 410 Stats:
-  Search Seconds:         0.099
-  DocName Seconds:        0.007
+  Search Seconds:         0.090
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:       31.000
   Max Good Points:       65.000
@@ -810,7 +810,7 @@
 411  -   salvag shipwreck treasur 
 
 411 Stats:
-  Search Seconds:         0.016
+  Search Seconds:         0.015
   DocName Seconds:        0.010
   Num Points:         1,000.000
   Num Good Points:       14.000
@@ -893,8 +893,8 @@
 412  -   airport secur 
 
 412 Stats:
-  Search Seconds:         0.221
-  DocName Seconds:        0.010
+  Search Seconds:         0.224
+  DocName Seconds:        0.012
   Num Points:         1,000.000
   Num Good Points:       39.000
   Max Good Points:      123.000
@@ -976,8 +976,8 @@
 413  -   steel product 
 
 413 Stats:
-  Search Seconds:         0.169
-  DocName Seconds:        0.005
+  Search Seconds:         0.179
+  DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:       46.000
   Max Good Points:       69.000
@@ -1142,7 +1142,7 @@
 415  -   drug golden triangl 
 
 415 Stats:
-  Search Seconds:         0.070
+  Search Seconds:         0.067
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       25.000
@@ -1225,7 +1225,7 @@
 416  -   gorg project 
 
 416 Stats:
-  Search Seconds:         0.094
+  Search Seconds:         0.105
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       24.000
@@ -1308,7 +1308,7 @@
 417  -   creativ 
 
 417 Stats:
-  Search Seconds:         0.008
+  Search Seconds:         0.007
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       51.000
@@ -1391,8 +1391,8 @@
 418  -   quilt incom 
 
 418 Stats:
-  Search Seconds:         0.052
-  DocName Seconds:        0.005
+  Search Seconds:         0.051
+  DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:        8.000
   Max Good Points:      116.000
@@ -1474,8 +1474,8 @@
 419  -   recycl automobil tire 
 
 419 Stats:
-  Search Seconds:         0.038
-  DocName Seconds:        0.005
+  Search Seconds:         0.035
+  DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:        5.000
   Max Good Points:       16.000
@@ -1558,7 +1558,7 @@
 
 420 Stats:
   Search Seconds:         0.017
-  DocName Seconds:        0.005
+  DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:       23.000
   Max Good Points:       33.000
@@ -1640,8 +1640,8 @@
 421  -   industri wast dispos 
 
 421 Stats:
-  Search Seconds:         1.225
-  DocName Seconds:        0.004
+  Search Seconds:         2.207
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       28.000
   Max Good Points:       83.000
@@ -1723,7 +1723,7 @@
 422  -   art stolen forg 
 
 422 Stats:
-  Search Seconds:         0.079
+  Search Seconds:         0.272
   DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:       62.000
@@ -1806,8 +1806,8 @@
 423  -   milosev mirjana markov 
 
 423 Stats:
-  Search Seconds:         0.005
-  DocName Seconds:        0.004
+  Search Seconds:         0.016
+  DocName Seconds:        0.007
   Num Points:         1,000.000
   Num Good Points:       20.000
   Max Good Points:       21.000
@@ -1889,8 +1889,8 @@
 424  -   suicid 
 
 424 Stats:
-  Search Seconds:         0.003
-  DocName Seconds:        0.005
+  Search Seconds:         0.016
+  DocName Seconds:        0.008
   Num Points:         1,000.000
   Num Good Points:      110.000
   Max Good Points:      171.000
@@ -1972,8 +1972,8 @@
 425  -   counterfeit monei 
 
 425 Stats:
-  Search Seconds:         0.086
-  DocName Seconds:        0.006
+  Search Seconds:         0.241
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       70.000
   Max Good Points:      162.000
@@ -2055,7 +2055,7 @@
 426  -   law enforc dog 
 
 426 Stats:
-  Search Seconds:         0.208
+  Search Seconds:         0.210
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       36.000
@@ -2138,8 +2138,8 @@
 427  -   uv damag ey 
 
 427 Stats:
-  Search Seconds:         0.099
-  DocName Seconds:        0.004
+  Search Seconds:         0.250
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       13.000
   Max Good Points:       50.000
@@ -2221,8 +2221,8 @@
 428  -   declin birth rate 
 
 428 Stats:
-  Search Seconds:         0.229
-  DocName Seconds:        0.005
+  Search Seconds:         0.296
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:       19.000
   Max Good Points:      118.000
@@ -2304,8 +2304,8 @@
 429  -   legionnair diseas 
 
 429 Stats:
-  Search Seconds:         0.013
-  DocName Seconds:        0.004
+  Search Seconds:         0.015
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:        9.000
   Max Good Points:       11.000
@@ -2387,8 +2387,8 @@
 430  -   killer bee attack 
 
 430 Stats:
-  Search Seconds:         0.072
-  DocName Seconds:        0.005
+  Search Seconds:         0.085
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:        6.000
   Max Good Points:        6.000
@@ -2470,8 +2470,8 @@
 431  -   robot technolog 
 
 431 Stats:
-  Search Seconds:         0.081
-  DocName Seconds:        0.008
+  Search Seconds:         0.057
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       69.000
   Max Good Points:      130.000
@@ -2553,8 +2553,8 @@
 432  -   profil motorist polic 
 
 432 Stats:
-  Search Seconds:         0.090
-  DocName Seconds:        0.005
+  Search Seconds:         0.140
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:        1.000
   Max Good Points:       28.000
@@ -2636,7 +2636,7 @@
 433  -   greek philosophi stoicism 
 
 433 Stats:
-  Search Seconds:         0.023
+  Search Seconds:         0.025
   DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:        0.000
@@ -2719,8 +2719,8 @@
 434  -   estonia economi 
 
 434 Stats:
-  Search Seconds:         0.090
-  DocName Seconds:        0.004
+  Search Seconds:         0.088
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:      207.000
   Max Good Points:      347.000
@@ -2802,8 +2802,8 @@
 435  -   curb popul growth 
 
 435 Stats:
-  Search Seconds:         0.150
-  DocName Seconds:        0.005
+  Search Seconds:         0.187
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:       44.000
   Max Good Points:      117.000
@@ -2885,8 +2885,8 @@
 436  -   railwai accid 
 
 436 Stats:
-  Search Seconds:         0.032
-  DocName Seconds:        0.006
+  Search Seconds:         0.035
+  DocName Seconds:        0.004
   Num Points:         1,000.000
   Num Good Points:       45.000
   Max Good Points:      180.000
@@ -2968,7 +2968,7 @@
 437  -   deregul ga electr 
 
 437 Stats:
-  Search Seconds:         0.108
+  Search Seconds:         0.102
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       23.000
@@ -3051,7 +3051,7 @@
 438  -   tourism increas 
 
 438 Stats:
-  Search Seconds:         0.169
+  Search Seconds:         0.176
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       74.000
@@ -3134,7 +3134,7 @@
 439  -   invent scientif discoveri 
 
 439 Stats:
-  Search Seconds:         0.045
+  Search Seconds:         0.046
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       58.000
@@ -3217,8 +3217,8 @@
 440  -   child labor 
 
 440 Stats:
-  Search Seconds:         0.048
-  DocName Seconds:        0.005
+  Search Seconds:         0.055
+  DocName Seconds:        0.007
   Num Points:         1,000.000
   Num Good Points:       12.000
   Max Good Points:       54.000
@@ -3301,7 +3301,7 @@
 
 441 Stats:
   Search Seconds:         0.013
-  DocName Seconds:        0.004
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       11.000
   Max Good Points:       17.000
@@ -3383,8 +3383,8 @@
 442  -   heroic act 
 
 442 Stats:
-  Search Seconds:         0.105
-  DocName Seconds:        0.004
+  Search Seconds:         0.134
+  DocName Seconds:        0.007
   Num Points:         1,000.000
   Num Good Points:        2.000
   Max Good Points:       94.000
@@ -3466,8 +3466,8 @@
 443  -   invest africa 
 
 443 Stats:
-  Search Seconds:         0.139
-  DocName Seconds:        0.005
+  Search Seconds:         0.163
+  DocName Seconds:        0.007
   Num Points:         1,000.000
   Num Good Points:       18.000
   Max Good Points:      102.000
@@ -3549,8 +3549,8 @@
 444  -   supercrit fluid 
 
 444 Stats:
-  Search Seconds:         0.006
-  DocName Seconds:        0.005
+  Search Seconds:         0.007
+  DocName Seconds:        0.009
   Num Points:         1,000.000
   Num Good Points:       13.000
   Max Good Points:       17.000
@@ -3632,8 +3632,8 @@
 445  -   women clergi 
 
 445 Stats:
-  Search Seconds:         0.045
-  DocName Seconds:        0.005
+  Search Seconds:         0.053
+  DocName Seconds:        0.008
   Num Points:         1,000.000
   Num Good Points:       23.000
   Max Good Points:       62.000
@@ -3715,8 +3715,8 @@
 446  -   tourist violenc 
 
 446 Stats:
-  Search Seconds:         0.029
-  DocName Seconds:        0.005
+  Search Seconds:         0.032
+  DocName Seconds:        0.008
   Num Points:         1,000.000
   Num Good Points:       76.000
   Max Good Points:      162.000
@@ -3798,8 +3798,8 @@
 447  -   stirl engin 
 
 447 Stats:
-  Search Seconds:         0.045
-  DocName Seconds:        0.004
+  Search Seconds:         0.056
+  DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:        3.000
   Max Good Points:       16.000
@@ -3881,7 +3881,7 @@
 448  -   ship loss 
 
 448 Stats:
-  Search Seconds:         0.111
+  Search Seconds:         0.105
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       13.000
@@ -3964,7 +3964,7 @@
 449  -   antibiot ineffect 
 
 449 Stats:
-  Search Seconds:         0.006
+  Search Seconds:         0.004
   DocName Seconds:        0.005
   Num Points:         1,000.000
   Num Good Points:       28.000
@@ -4047,8 +4047,8 @@
 450  -   king hussein peac 
 
 450 Stats:
-  Search Seconds:         0.096
-  DocName Seconds:        0.005
+  Search Seconds:         0.105
+  DocName Seconds:        0.006
   Num Points:         1,000.000
   Num Good Points:      105.000
   Max Good Points:      293.000
@@ -4130,8 +4130,8 @@
 
 
 SUMMARY
-  Search Seconds:         0.119
-  DocName Seconds:        0.006
+  Search Seconds:         0.152
+  DocName Seconds:        0.007
   Num Points:           981.700
   Num Good Points:       34.500
   Max Good Points:       94.560

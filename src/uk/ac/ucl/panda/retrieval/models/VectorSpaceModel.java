@@ -1,6 +1,9 @@
 package uk.ac.ucl.panda.retrieval.models;
 
+import uk.ac.ucl.panda.utility.structure.Document;
+
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Vector;
 
 /**
@@ -18,7 +21,7 @@ public class VectorSpaceModel implements Model {
 	 * 
 	 * @param query
 	 *            A Vector of Strings representing the query
-	 * @param termVector
+	 * @param TermVector
 	 *            HashMap linking each term in the document with its term
 	 *            frequency
 	 * 
@@ -30,10 +33,39 @@ public class VectorSpaceModel implements Model {
 	@Override
 	public double getVSMscore(Vector<String> query,
 			HashMap<String, Integer> TermVector) {
-		// Write Vector Space Model code here
+        // Vector Space Model with term weights nnc.nnc
+        // change query vector into HashMap
+        HashMap<String, Double> QueryVector = new HashMap<String, Double>();
+        for (Map.Entry<String, Integer> entry : TermVector.entrySet()) {
+            String key = entry.getKey();
+            if (!QueryVector.containsKey(key)) {
+                QueryVector.put(key, 0.);
+            }
+            if (query.contains(key)) {
+                QueryVector.put(key, 1.);
+            }
+        }
 
-		return 0; // return vector space model score here
+        // normalize document vector
+        HashMap<String, Double> DocumentVector = new HashMap<String, Double>();
 
+        double denominator = 0;
+        for (Integer value : TermVector.values()) {
+            denominator += Math.pow(value, 2);
+        }
+        denominator = Math.sqrt(denominator);
+
+        for (Map.Entry<String, Integer> entry : TermVector.entrySet()) {
+            DocumentVector.put(entry.getKey(), entry.getValue() / denominator);
+        }
+
+        // compute inner product
+        double score = 0;
+        for (String key : DocumentVector.keySet()) {
+            score += QueryVector.get(key) * DocumentVector.get(key);
+        }
+
+        return score;
 	}
 
 	/**
