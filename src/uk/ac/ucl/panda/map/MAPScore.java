@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.StringTokenizer;
 
 import uk.ac.ucl.panda.map.ResultsList.Result;
@@ -38,12 +39,33 @@ public class MAPScore {
 	public static double getMAPScore() {
 		ResultsList results = getResultsFromFile();
 		QRelList qrels = getQRelsFromFile();
+        double sumAveragePrecision = 0.;
 
 		/**
 		 * Your solution here
 		 */
+        // iterate over every result
+        for (Integer topicNum : results.getTopics()) {
+            HashMap<String, Boolean> labels = qrels.getTopicQRels(topicNum);
+            double averagePrecision = 0.;
+            Integer collectCount = 0;
 
-		return 0.0; //return MAP score here
+            for (Result result : results.getTopicResults(topicNum)) {
+                if (labels.containsKey(result.docID)) { // check if there's relevance judgement
+                    if (labels.get(result.docID) == true) { // check if a given document is relevant
+                        collectCount++;
+                        averagePrecision += (double) collectCount / (result.rank + 1);
+                    }
+                }
+            }
+            if (collectCount > 0) { // if there isn't any relevant document, average precision is 0
+                averagePrecision /= collectCount;
+            }
+            sumAveragePrecision += averagePrecision;
+        }
+        double score = sumAveragePrecision / results.getTopics().length;
+
+		return score; //return MAP score here
 	}
 
 	/**
