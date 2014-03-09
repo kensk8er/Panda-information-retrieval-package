@@ -1,7 +1,5 @@
 package uk.ac.ucl.panda.retrieval.models;
 
-import uk.ac.ucl.panda.utility.structure.Document;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
@@ -63,6 +61,7 @@ public class VectorSpaceModel implements Model {
         double score = 0;
         for (String key : DocumentVector.keySet()) {
             score += QueryVector.get(key) * DocumentVector.get(key);
+            /* QueryVector hasn't been normalized yet, but it doesn't affect retrieval results. */
         }
 
         return score;

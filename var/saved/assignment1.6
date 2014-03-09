@@ -1,0 +1,104 @@
+Vector Space Model (nnc.nnc):
+file name: LA050990-0043 (rank = 1)
+germani 10
+foreign 4
+
+file name: LA050690-0109 (rank = 2)
+minor 1
+germani 37
+foreign 21
+
+file name: LA031590-0102 (rank = 3)
+germani 27
+foreign 13
+
+file name: LA021590-0209 (rank = 4)
+germani 11
+foreign 4
+
+file name: FT924-4470 (rank = 5)
+minor 1
+germani 13
+foreign 8
+
+file name: LA100490-0082 (rank = 6)
+germani 20
+foreign 7
+
+file name: LA040790-0104 (rank = 7)
+germani 7
+foreign 2
+
+file name: FT924-11400 (rank = 8)
+germani 21
+foreign 6
+
+file name: LA021490-0049 (rank = 9)
+germani 23
+foreign 13
+
+file name: FBIS4-1664 (rank = 10)
+foreign 47
+
+
+Pivoted Normalization Weighting model:
+file name: FBIS3-20090 (rank = 1)
+minor 2
+germani 14
+foreign 3
+
+file name: FBIS4-18182 (rank = 2)
+minor 4
+germani 3
+foreign 7
+
+file name: FBIS3-39117 (rank = 3)
+minor 3
+germani 12
+foreign 5
+
+file name: LA110990-0013 (rank = 4)
+minor 4
+germani 11
+foreign 2
+
+file name: FBIS4-18223 (rank = 5)
+minor 4
+germani 3
+foreign 4
+
+file name: FBIS4-55036 (rank = 6)
+minor 2
+germani 8
+foreign 3
+
+file name: FBIS4-65928 (rank = 7)
+minor 4
+germani 2
+foreign 6
+
+file name: FT941-230 (rank = 8)
+minor 3
+germani 9
+foreign 3
+
+file name: FT941-1648 (rank = 9)
+minor 4
+germani 8
+foreign 6
+
+file name: FT941-1403 (rank = 10)
+minor 3
+germani 5
+foreign 2
+
+
+Question:
+How do these compare for each of the two models, why are they different and what effect does this have on the quality of the search results for each model?
+
+Answer:
+Vector Space Model simply prefers documents that contain more query words (normalized by document length), whereas the Pivoted Normalization Weighting model prefers documents that contain all the query words. This is because model score is proportional to term frequency (after normalized) in Vector Space Model, whereas it is log function of log function of term frequency (after normalized) in the Pivoted Mormalization Weighting model.
+
+In addition to that, the Pivoted Normalization Weighting model tends to put higher score on documents containing more 'germani', as the model considers document frequency and the word 'germani' does not appear in many documents.
+
+Due to these differences, users tend to have difficulties in finding relevant documents in Vector Space Model when there are multiple query terms, because the retrieved documents tend not to have every query word, and the importance of each query term is not considered. (Usually one query term is more important than others.)
